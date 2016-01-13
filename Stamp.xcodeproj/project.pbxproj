@@ -14,6 +14,12 @@
 		FA0612DB1C21781E00C76E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0612D91C21781E00C76E96 /* LaunchScreen.storyboard */; };
 		FA0612E61C21781E00C76E96 /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0612E51C21781E00C76E96 /* StampTests.swift */; };
 		FA0612F11C21781E00C76E96 /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0612F01C21781E00C76E96 /* StampUITests.swift */; };
+		FA0613031C21788200C76E96 /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0612FE1C21788200C76E96 /* onpu.png */; };
+		FA0613041C21788200C76E96 /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0612FF1C21788200C76E96 /* shitumon.png */; };
+		FA0613051C21788200C76E96 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0613001C21788200C76E96 /* background.png */; };
+		FA0613061C21788200C76E96 /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0613011C21788200C76E96 /* hana.png */; };
+		FA0613071C21788200C76E96 /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0613021C21788200C76E96 /* hoshi.png */; };
+		FA0613521C46589900C76E96 /* IMG_3145.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA0613511C46589900C76E96 /* IMG_3145.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		FA0612EC1C21781E00C76E96 /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0612F01C21781E00C76E96 /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		FA0612F21C21781E00C76E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0612FE1C21788200C76E96 /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onpu.png; path = StampTests/onpu.png; sourceTree = SOURCE_ROOT; };
+		FA0612FF1C21788200C76E96 /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shitumon.png; path = StampTests/shitumon.png; sourceTree = SOURCE_ROOT; };
+		FA0613001C21788200C76E96 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = StampTests/background.png; sourceTree = SOURCE_ROOT; };
+		FA0613011C21788200C76E96 /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hana.png; path = StampTests/hana.png; sourceTree = SOURCE_ROOT; };
+		FA0613021C21788200C76E96 /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hoshi.png; path = StampTests/hoshi.png; sourceTree = SOURCE_ROOT; };
+		FA0613511C46589900C76E96 /* IMG_3145.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3145.jpg; path = ../../IMG_3145.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 				FA0612D21C21781E00C76E96 /* ViewController.swift */,
 				FA0612D41C21781E00C76E96 /* Main.storyboard */,
 				FA0612D71C21781E00C76E96 /* Assets.xcassets */,
+				FA0613021C21788200C76E96 /* hoshi.png */,
+				FA0613001C21788200C76E96 /* background.png */,
+				FA0613511C46589900C76E96 /* IMG_3145.jpg */,
+				FA0613011C21788200C76E96 /* hana.png */,
+				FA0612FF1C21788200C76E96 /* shitumon.png */,
+				FA0612FE1C21788200C76E96 /* onpu.png */,
 				FA0612D91C21781E00C76E96 /* LaunchScreen.storyboard */,
 				FA0612DC1C21781E00C76E96 /* Info.plist */,
 			);
@@ -230,8 +248,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0612DB1C21781E00C76E96 /* LaunchScreen.storyboard in Resources */,
+				FA0613051C21788200C76E96 /* background.png in Resources */,
+				FA0613031C21788200C76E96 /* onpu.png in Resources */,
 				FA0612D81C21781E00C76E96 /* Assets.xcassets in Resources */,
+				FA0613041C21788200C76E96 /* shitumon.png in Resources */,
 				FA0612D61C21781E00C76E96 /* Main.storyboard in Resources */,
+				FA0613521C46589900C76E96 /* IMG_3145.jpg in Resources */,
+				FA0613061C21788200C76E96 /* hana.png in Resources */,
+				FA0613071C21788200C76E96 /* hoshi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				FA0612F71C21781E00C76E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA0612F81C21781E00C76E96 /* Build configuration list for PBXNativeTarget "StampTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				FA0612FA1C21781E00C76E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA0612FB1C21781E00C76E96 /* Build configuration list for PBXNativeTarget "StampUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				FA0612FD1C21781E00C76E96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
